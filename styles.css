@@ -1,1 +1,65 @@
 /* Write your CSS here! */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+body{
+    margin: 8px;
+    display: block;
+}
+
+img{
+    width:15rem;
+    height:15rem;
+}
+
+ul {
+    margin-top: 2rem;
+}
+ul, li {
+    display: flex; 
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: orangered;
+    gap: 0.5rem;
+}
+
+header{
+font-size: 26px;
+flex-direction: row;
+}
+
+div,header  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main-heading{
+    color: red;
+}
+.hero-main{
+    margin-top: 4rem;
+    font-size: 54px;
+    animation: myAnim 3.5s ease 0s 1 normal forwards;
+}
+
+
+.story-one{
+    margin-top: 6rem;
+}
+
+.funParagraph{
+    color: green;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
